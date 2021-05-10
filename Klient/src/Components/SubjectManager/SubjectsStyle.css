@@ -1,0 +1,81 @@
+.loader {
+        margin-top:200px;
+        justify-content: center;
+    }
+    .grid-container-subjects{
+        float: left;
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-columns: 390px 390px 390px;
+        margin-left: 60px;
+        padding-left: 75px;;
+    }
+    .item{
+            margin-top:30px;    
+            padding: 50px;
+            background: linear-gradient(to top,#5f2c82,#49a09d );;
+            text-align: center;
+            border-radius: 35px;
+            transition: 300ms;
+    }
+    .SubjectTitle
+    {
+        font-size: 45px;
+        color:whitesmoke;
+    }
+    .item:hover{
+            background-color:rgb(12, 29, 81)
+    }
+    .btn{
+        width:112px;
+        padding: 15px;;
+    }
+.edit{
+    float: left;
+    width:20px;
+    height:20px;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+.edit{
+    transition: 400ms;
+    z-index: 3;
+    overflow: hidden;
+}
+.edit:hover{
+    width:23px;
+    height: 23px;
+}
+.editSubject{
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    background-color: aliceblue;
+    height: 340px;
+    padding: 2%;
+    width:350px;
+    margin-top:30px;
+    margin-left: 35%;
+    border-radius: 35px;
+    animation-name: bottom;
+    animation-duration: 2s ;
+}
+@keyframes bottom {
+    from {top: -600px;}
+    to {top: 86px;}
+  }
+  .input{
+      padding: 15px;
+      border-radius: 7px;
+      font-size: 25px;
+  }
+  .plus{
+      width:100px;
+      height:100px;
+      margin-top: 140px;
+      transition: 300ms;
+  }
+  .plus:hover{
+       width: 110px;
+       height: 110px;
+  }

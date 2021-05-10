@@ -1,0 +1,11 @@
+.contentFooter{
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+        height: 2.5rem; 
+}
+.contentFooterHome{
+        position: absolute;
+        width: 100%;
+        height: 2.5rem;    
+}

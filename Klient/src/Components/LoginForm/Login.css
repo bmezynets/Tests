@@ -1,0 +1,21 @@
+body{
+        overflow-x: hidden;
+}
+.upsertformsShow{
+        position: fixed;
+        z-index: 3;
+        text-align: center;
+        background-color: aliceblue;
+        height: 360px;
+        width:350px;
+        padding: 2%;
+        margin-top:100px;
+        margin-left: 35%;
+        border-radius: 35px;
+        animation-name: bottom;
+        animation-duration: 2s ;
+}
+@keyframes bottom {
+        from {top: -600px;}
+        to {top: 86px;}
+      }

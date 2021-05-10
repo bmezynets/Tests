@@ -1,0 +1,21 @@
+body{
+        background: rgb(24,103,235);
+        background: linear-gradient(90deg, rgba(24,103,235,1) 0%, rgba(0,212,255,1) 100%);;;
+        text-align: center;
+}
+.form{
+        position: absolute;
+        z-index: 3;
+        text-align: center;
+        background-color: aliceblue;
+        height: 250px;
+        width:450px;
+        margin-top:150px;
+        margin-left: 35%;
+        border-radius: 5px;
+}
+.confirm{
+        padding:20px !important;
+        text-align: center;
+        font-size: 25px;
+}

@@ -1,0 +1,147 @@
+.test{
+        float: right;
+        margin-top: 50px;
+        margin-left: 300px;
+
+}
+.title_item_list{
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+}
+.item_list{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 600px;
+        margin-top: 20px;
+        margin-left: 20px;
+        position: absolute;
+        border-radius: 20px;
+        margin-right: 200px;
+        background-color: whitesmoke;
+}
+.item_test{
+        position: relative;
+        width:300px;
+        margin-top: 70px;
+}
+.title_test{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+.test_info{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 20px;
+}
+.text_score{
+  position: relative;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  font-size: 20px;
+  width:60%;
+  margin-left: 250px;
+}
+.choosed_test
+{
+  position: relative;
+  width:300px;
+  margin-top: 70px;
+  background-color: #28a745;
+}
+.text_test{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 200px;
+  height: 100%;
+  margin-top: 20px;
+  margin-right:160px;
+}
+
+.pulse-button {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 100px;
+  font-size: 2.3em;
+  font-weight: light;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+  letter-spacing: -1px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  background: #5a99d4;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(#151616, .5);
+  animation: pulse 1.5s infinite;
+}
+.pulse-button:hover {
+  -webkit-animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform:scale(.9);
+  }
+  70% {
+    transform:scale(1);
+   box-shadow:0 0 0 0.6em #66CCFF;
+  }
+    100% {
+    transform:scale(.9);
+    color: rgba(#5a99d4, 0);
+  }
+}
+.box{
+  position: absolute;
+  width: 500px;
+  height: 220px;
+  border:3px solid white;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  margin-left: 350px;
+}
+.upsertformsShowTest{
+  position: fixed;
+  z-index: 3;
+  text-align: center;
+  background-color: aliceblue;
+  height: 600px;
+  width:350px;
+  padding: 2%;
+  margin-top:0px;
+  margin-left: 35%;
+  border-radius: 35px;
+  animation-name: bottom;
+  animation-duration: 2s ;
+}
+@keyframes bottom {
+  from {top: -600px;}
+  to {top: 0px;}
+}
+.test_form{
+  width:100%;
+  border:2px solid white;
+  margin-left:80%;
+  transition:400ms
+}
+.test_form_new{
+  width:100%;
+  border:2px solid white;
+  animation: mymove 0.5s forwards;
+    animation-delay: 2s;
+}
+@keyframes mymove {
+  from{left:500px;}
+  to { left: 0px; }
+}

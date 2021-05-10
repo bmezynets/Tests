@@ -1,0 +1,30 @@
+.grid-container-files{
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-columns: 390px;
+        text-align: center;
+        margin-left:350px ;
+        margin-top:30px;
+}
+.item-file{
+        width: 1000px;
+        border:3px solid white;
+        background-color: whitesmoke;
+        border-radius: 35px;
+}
+.excel{
+        float: left;
+        padding: 20px;
+        margin-top:30px;
+        width:150px;
+        height: 150px;
+}
+.info_download{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+}
+.table{
+        width:60% !important;
+        margin-left:20% !important;
+        margin-top: 50px;
+}
